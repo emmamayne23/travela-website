@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travela </title>
+
+    <!-- link to the css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link to the font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="navigation">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Travela</h3>
+                </div>
+                
+                <button class="nav-toggle-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            
+            
+            <ul class="nav-links">
+                <hr>
+                <article class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./packages.html">Packages</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li class="pages"><a href="#">Pages</a> &nbsp;<i class="fa-solid fa-angle-down"></i></li>
+                    <div class="pages-div">
+                        <ul>
+                            <li><a href="./destination.html">Destination</a></li>
+                            <li><a href="./tour.html">Explore Tour</a></li>
+                            <li><a href="./booking.html">Travel Booking</a></li>
+                            <li><a href="./gallery.html">Our gallery</a></li>
+                            <li><a href="./guides.html">Travel Guides</a></li>
+                            <li><a href="./testimonial.html">Testimonial</a></li>
+                            <li><a href="./404.html">404 Page</a></li>
+                        </ul>
+                    </div>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li class="book-btn"><a href="#">Book Now</a></li>
+                </article>
+                
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- the caurosel slider -->
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade overlay">
+                <img src="./img/carousel-2.jpg" style="width:100%">
+                <div class="text">EXPLORE THE WORLD</div>
+                <h3 class="text-header">Let's The World Together!</h3>
+                <p class="text-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit asperiores, fugit placeat beatae nulla consectetur vel, deleniti tenetur omnis sed nesciunt doloremque debitis a officiis.</p>
+                <button class="slider-btn">Discover Now</button>
+            </div>
+        
+            <div class="mySlides fade overlay">
+                <img src="./img/carousel-1.jpg" style="width:100%">
+                <div class="text">EXPLORE THE WORLD</div>
+                <h3 class="text-header">Find Your Perfect Tour At Travel</h3>
+                <p class="text-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus iste, magnam eius sunt quo molestias blanditiis veniam reiciendis accusamus corporis labore omnis totam voluptates. Reprehenderit?</p>
+                <button class="slider-btn">Discover Now</button>
+            </div>
+        
+            <div class="mySlides fade overlay">
+                <img src="./img/blog-3.jpg" style="width:100%">
+                <div class="text">EXPLORE THE WORLD</div>
+                <h3 class="text-header">You Like To Go?</h3>
+                <p class="text-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo sunt tenetur nihil ipsa fuga dolor, ea veniam optio! Distinctio perspiciatis error inventore qui ullam. Corrupti.</p>
+                <button class="slider-btn">Discover Now</button>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- the about section -->
+        <div class="about">
+
+                    <!-- the search section -->
+            <div class="search-box">
+                <form action="" method="get" class="form">
+                    <input type="text" placeholder="Eg: Thailand">
+                    <button type="submit" class="book-btn">Search</button>
+                </form>
+            </div>
+
+            <div class="about-flex">
+                <img src="./img/about-img.jpg" alt="">
+
+                <div class="about-us">
+                    <div class="bg-overlay">
+                        <h2 style="color: #13357B; font-size: 20px;">ABOUT US</h2>
+                        <h2 style="color: black; margin-bottom: 10px; margin-top: 5px;">Welcome to <span style="color: #13357B;">Travela</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolorum, doloribus sunt dicta, officia voluptatibus libero necessitatibus natus impedit quam ullam assumenda? Id atque iste consectetur. Commodi odit ab saepe!</p> <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos voluptatem suscipit neque enim, doloribus ipsum rem eos distinctio, dignissimos nisi saepe nulla? Libero numquam perferendis provident placeat molestiae quia?</p>
+                        
+                        <div>
+                            <article class="">
+                                <span><i class="fa-solid fa-arrow-right"></i>&nbsp; First Class Flights</span><br>
+                                <span><i class="fa-solid fa-arrow-right"></i>&nbsp; Handpicked Hotels</span><br>
+                                <span><i class="fa-solid fa-arrow-right"></i>&nbsp; 5 Star Accommodations</span><br>
+                            </article>
+                            <article>
+                                <span class="first-article"><i class="fa-solid fa-arrow-right"></i>&nbsp; Latest Model Vehicles</span><br>
+                                <span class="second-article"><i class="fa-solid fa-arrow-right"></i> <article>&nbsp;150 Premium City Tours</article></span>
+                                <span class="third-article"><i class="fa-solid fa-arrow-right"></i>&nbsp; 24/7 Service</span>
+                            </article>
+                        
+                        </div>
+
+                        <button class="about-btn">Read More</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- service section -->
+        <div class="service">
+            <section class="section">
+                <div class="line"></div> <span>SERVICES</span> <div class="line"></div>
+            </section>
+            <p style="text-align: center; margin: 20px 0px;">Our Services</p>
+
+            <article class="service-flex"> 
+            <div class="service-container">
+                <div class="description">
+                    <h4>WorldWide Tours</h4>
+                    <p>Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.</p>
+                </div>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="service-container">
+                <div class="description">
+                    <h4>Hotel Reservation</h4>
+                    <p>Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.</p>
+                </div>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+            <div class="service-container">
+                <div class="description">
+                    <h4>Travel Guides</h4>
+                    <p>Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.</p>
+                </div>
+                <i class="fa-solid fa-person"></i>
+            </div>
+            <div class="service-container">
+                <div class="description">
+                    <h4>Event Management</h4>
+                    <p>Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.</p>
+                </div>
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="service-container">
+                <div class="description">
+                    <h4>WorldWide Tours</h4>
+                    <p>Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.</p>
+                </div>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="service-container">
+                <div class="description">
+                    <h4>Hotel Reservation</h4>
+                    <p>Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.</p>
+                </div>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+            <div class="service-container">
+                <div class="description">
+                    <h4>Travel Guides</h4>
+                    <p>Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.</p>
+                </div>
+                <i class="fa-solid fa-person"></i>
+            </div>
+            <div class="service-container">
+                <div class="description">
+                    <h4>Event Management</h4>
+                    <p>Dolor sit amet consectetur adipisicing elit. Non alias eum, suscipit expedita corrupti officiis debitis possimus nam laudantium beatae quidem dolore consequuntur voluptate rem reiciendis, omnis sequi harum earum.</p>
+                </div>
+                <i class="fa-solid fa-gear"></i>
+            </div>
+        </article>
+
+            <button class="service-btn">Service More</button>
+            
+
+        </div>
+
+        <section class="destination-section">
+            <div class="section">
+                <div class="line"></div> <span>DESTINATION</span> <div class="line"></div>
+            </div>
+            <p style="text-align: center; margin: 20px 0px; font-size: 22px; font-weight: 600;">Popular Destination</p>
+
+            <div class="section-center">
+                <div class="btn-container">
+                    <button class="filter-btn active-button" data-id="all">All</button>
+                    <button class="filter-btn" data-id="usa">USA</button>
+                    <button class="filter-btn" data-id="canada">Canada</button>
+                    <button class="filter-btn" data-id="europe">Europe</button>
+                    <button class="filter-btn" data-id="china">China</button>
+                    <button class="filter-btn" data-id="singapore">Singapore</button>
+                </div>
+
+                <div class="imgs-container">
+                    <!-- <article class="destimages">
+                        <img src="./img/destination-1.jpg" alt="" class="photo">
+                        <div class="pop-up">
+                            <button>20 photos</button>
+                        </div>
+                    </article> -->
+
+                        <img src="./img/destination-1.jpg" alt="" class="photo">
+                        <article class="others">
+                            <div class="round"><i class="fas-fa plus"></i></div>
+                            <button class="filler-btn">20 photos</button>
+                        </article>
+                    
+                    <!-- <img src="./img/destination-2.jpg" alt="" class="photo">
+                    <img src="./img/destination-3.jpg" alt="" class="photo">
+                    <img src="./img/destination-4.jpg" alt="" class="photo">
+                    <img src="./img/destination-5.jpg" alt="" class="photo">
+                    <img src="./img/destination-6.jpg" alt="" class="photo">
+                    <img src="./img/destination-7.jpg" alt="" class="photo">
+                    <img src="./img/destination-8.jpg" alt="" class="photo">
+                    <img src="./img/destination-9.jpg" alt="" class="photo">
+                    <img src="./img/destination-1.jpg" alt="" class="photo"> -->
+                </div>
+            </div>
+        </section>
+
+        <section class="explore-world">
+            
+            <div class="section">
+                <div class="line"></div> <span style="font-weight: 600; font-size: 18px; color: #13357B;">EXPLORE TOUR</span> <div class="line"></div>
+            </div>
+            <p style="text-align: center; margin: 20px 0px; font-size: 26px; font-weight: 600;">The World</p>
+            <p style="color: gray; text-align: center; padding: 10px 20px; line-height: 23px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi.</p>
+            <div class="e-container">
+                <div class="explore-btn-container">
+                    <button class="explore-btn active-one" data-id="national">National Tour Category</button>
+                    <button class="explore-btn" data-id="international">International Tour Category</button>
+                </div>
+                <div class="explore-imgs e-content active-tab" id="national">
+                    <article class="e-image">
+                        <img src="./img/explore-tour-1.jpg" alt="">
+                        <div class="floating">
+                            <i class="fa-solid fa-link"></i>
+                            <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">WEEKEND TOUR</h3>
+                            <a href="#" style="text-decoration: none; color: white;" class="f-link">View All Place <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="e-image">
+                        <img src="./img/explore-tour-2.jpg" alt="">
+                        <div class="floating">
+                            <i class="fa-solid fa-link"></i>
+                            <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">HOLIDAY TOUR</h3>
+                            <a href="#" style="text-decoration: none; color: white;" class="f-link">View All Place <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="e-image">
+                        <img src="./img/explore-tour-3.jpg" alt="">
+                        <p style="background-color: cyan;">15% Off</p>
+                        <div class="floating">
+                            <i class="fa-solid fa-link"></i>
+                            <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">ROAD TRIP</h3>
+                            <a href="#" style="text-decoration: none; color: white;" class="f-link">View All Place <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="e-image">
+                        <img src="./img/explore-tour-4.jpg" alt="">
+                        <div class="floating">
+                            <i class="fa-solid fa-link"></i>
+                            <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">HISTORICAL TRIP</h3>
+                            <a href="#" style="text-decoration: none; color: white;" class="f-link">View All Place <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="e-image">
+                        <img src="./img/explore-tour-5.jpg" alt="">
+                        <p style="background-color: yellow;">50% Off</p>
+                        <div class="floating">
+                            <i class="fa-solid fa-link"></i>
+                            <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">FAMILY TOUR</h3>
+                            <a href="#" style="text-decoration: none; color: white;" class="f-link">View All Place <i class="fas fa-arrow-right"></i></a>
+                            
+                        </div>
+                    </article>
+                    <article class="e-image">
+                        <img src="./img/explore-tour-6.jpg" alt="">
+                        <div class="floating">
+                            <i class="fa-solid fa-link"></i>
+                            <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">BEACH TOUR</h3>
+                            <a href="#" style="text-decoration: none; color: white;" class="f-link">View All Place <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    
+                </div>
+
+                <div class="inter-tour-imgs e-content" id="international">
+                    <div class="the-imgs">
+                        <div class="slide-img">
+                            <article class="e-image">
+                                <img src="./img/explore-tour-1.jpg" alt="">
+                                <div class="floating">
+                                    <i class="fa-solid fa-link"></i>
+                                    <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">AUSTRALIA</h3>
+                                    <a href="#" style="text-decoration: none; color: white;" class="f-link"><i class="fa-solid fa-location-dot"></i>&nbsp;12 Cities</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="#" style="text-decoration: none; color: white;" class="f-link"><i class="fa-solid fa-eye"></i></i>&nbsp;21+ Tour Places</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="slide-img">
+                            <article class="e-image">
+                                <img src="./img/explore-tour-2.jpg" alt="">
+                                <div class="floating">
+                                    <i class="fa-solid fa-link"></i>
+                                    <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">GERMANY</h3>
+                                    <a href="#" style="text-decoration: none; color: white;" class="f-link"><i class="fa-solid fa-location-dot"></i>&nbsp;19 Cities</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="#" style="text-decoration: none; color: white;" class="f-link"><i class="fa-solid fa-eye"></i></i>&nbsp;47+ Tour Places</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="slide-img">
+                            <article class="e-image">
+                                <img src="./img/explore-tour-3.jpg" alt="">
+                                <div class="floating">
+                                    <i class="fa-solid fa-link"></i>
+                                    <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">CROATIA</h3>
+                                    <a href="#" style="text-decoration: none; color: white;" class="f-link"><i class="fa-solid fa-location-dot"></i>&nbsp;21 Cities</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="#" style="text-decoration: none; color: white;" class="f-link"><i class="fa-solid fa-eye"></i></i>&nbsp;211+ Tour Places</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="slide-img">
+                            <article class="e-image">
+                                <img src="./img/explore-tour-4.jpg" alt="">
+                                <div class="floating">
+                                    <i class="fa-solid fa-link"></i>
+                                    <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">NETHERLANDS</h3>
+                                    <a href="#" style="text-decoration: none; color: white;" class="f-link"><i class="fa-solid fa-location-dot"></i>&nbsp;14 Cities</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="#" style="text-decoration: none; color: white;" class="f-link"><i class="fa-solid fa-eye"></i></i>&nbsp;32+ Tour Places</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="slide-img">
+                            <article class="e-image">
+                                <img src="./img/explore-tour-5.jpg" alt="">
+                                <div class="floating">
+                                    <i class="fa-solid fa-link"></i>
+                                    <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">DUBAI</h3>
+                                    <a href="#" style="text-decoration: none; color: white;" class="f-link"><i class="fa-solid fa-location-dot"></i>&nbsp;16 Cities</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="#" style="text-decoration: none; color: white;" class="f-link"><i class="fa-solid fa-eye"></i></i>&nbsp;212+ Tour Places</a>
+                                </div>
+                            </article>
+                        </div>
+                        
+                    </div>
+
+                    <div class="the-btn-container">
+                        <button class="the-prevBtn"></button>
+                        <button class="the-nextBtn"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="packages-section">
+            <div class="section">
+                <div class="line"></div> <span style="font-weight: 600; font-size: 18px; color: #13357B;">PACKAGES</span> <div class="line"></div>
+            </div>
+            <p style="text-align: center; margin: 20px 0px; font-size: 26px; font-weight: 600;">Awesome Packages</p>
+
+            <div class="packages-slide">
+                <div class="p-buttons">
+                    <button class="p-prevBtn"><i class="fas fa-arrow-left"></i></button>
+                    <button class="p-nextBtn"><i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="p-slides-slides">
+                    <div class="p-slides">
+                        <div class="pack-img">
+                            <img src="./img/packages-1.jpg" alt="">
+                            <div class="amount">$349.00</div>
+                            <article class="small-writings">
+                                <p><i class="fas fa-location-dot"></i>&nbsp;Thailand</p>
+                                <p><i class="fas fa-calendar-days"></i>&nbsp;3 days</p>
+                                <p><i class="fas fa-person"></i>&nbsp;2 Person</p>
+                            </article>
+                        </div>
+                        <div class="p-content">
+                            <div class="p-info">
+                                <h3>Thailand Trip</h3>
+                                <p>HOTEL DEALS</p>
+                                <article>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </article>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia eius eveniet qui consequuntur ex, amet et illum voluptatibus. Laborum!</p>
+                            </div>
+                            
+                            <div class="bottom-sect">
+                                <a href="" style="text-decoration: none; color: white;">Read More</a>
+                                <a href="" style="text-decoration: none; color: white;">Book Now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="p-slides">
+                        <div class="pack-img">
+                            <img src="./img/packages-3.jpg" alt="">
+                            <div class="amount">$349.00</div>
+                            <article class="small-writings">
+                                <p><i class="fas fa-location-dot"></i>&nbsp;Italy</p>
+                                <p><i class="fas fa-calendar-days"></i>&nbsp;3 days</p>
+                                <p><i class="fas fa-person"></i>&nbsp;2 Person</p>
+                            </article>
+                        </div>
+                        <div class="p-content">
+                            <div class="p-info">
+                                <h3>Thailand Trip</h3>
+                                <p>HOTEL DEALS</p>
+                                <article>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </article>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia eius eveniet qui consequuntur ex, amet et illum voluptatibus. Laborum!</p>
+                            </div>
+                            
+                            <div class="bottom-sect">
+                                <a href="" style="text-decoration: none; color: white;">Read More</a>
+                                <a href="" style="text-decoration: none; color: white;">Book Now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="p-slides">
+                        <div class="pack-img">
+                            <img src="./img/packages-4.jpg" alt="">
+                            <div class="amount">$349.00</div>
+                            <article class="small-writings">
+                                <p><i class="fas fa-location-dot"></i>&nbsp;Finland</p>
+                                <p><i class="fas fa-calendar-days"></i>&nbsp;3 days</p>
+                                <p><i class="fas fa-person"></i>&nbsp;2 Person</p>
+                            </article>
+                        </div>
+                        <div class="p-content">
+                            <div class="p-info">
+                                <h3>Thailand Trip</h3>
+                                <p>HOTEL DEALS</p>
+                                <article>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </article>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia eius eveniet qui consequuntur ex, amet et illum voluptatibus. Laborum!</p>
+                            </div>
+                            
+                            <div class="bottom-sect">
+                                <a href="" style="text-decoration: none; color: white;">Read More</a>
+                                <a href="" style="text-decoration: none; color: white;">Book Now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="p-slides">
+                        <div class="pack-img">
+                            <img src="./img/packages-2.jpg" alt="">
+                            <div class="amount">$349.00</div>
+                            <article class="small-writings">
+                                <p><i class="fas fa-location-dot"></i>&nbsp;Yemen</p>
+                                <p><i class="fas fa-calendar-days"></i>&nbsp;3 days</p>
+                                <p><i class="fas fa-person"></i>&nbsp;2 Person</p>
+                            </article>
+                        </div>
+                        <div class="p-content">
+                            <div class="p-info">
+                                <h3>Thailand Trip</h3>
+                                <p>HOTEL DEALS</p>
+                                <article>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </article>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia eius eveniet qui consequuntur ex, amet et illum voluptatibus. Laborum!</p>
+                            </div>
+                            
+                            <div class="bottom-sect">
+                                <a href="" style="text-decoration: none; color: white;">Read More</a>
+                                <a href="" style="text-decoration: none; color: white;">Book Now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <section class="our-gallery">
+            <article class="galleria">
+                <div class="section">
+                    <div class="line"></div> <span style="font-weight: 600; font-size: 18px; color: #13357B;">OUR GALLERY</span> <div class="line"></div>
+                </div>
+                <p style="text-align: center; margin: 20px 0px; font-size: 26px; font-weight: 600;">Tourism & Traveling Gallery</p>
+                <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa qui molestiae accusamus maiores! Temporibus adipisci sequi quia aliquid molestias quos iste corrupti! Vitae, sint saepe iure laborum quos perferendis.</p>
+            </article>
+
+            <article class="gallery-menu">
+                <div class="gallery-btns-container">
+                    <button class="gallery-btn gallery-active" data-id="all">All</button>
+                    <button class="gallery-btn" data-id="world">World Tour</button>
+                    <button class="gallery-btn" data-id="ocean">Ocean Tour</button>
+                    <button class="gallery-btn" data-id="summer">Summer Tour</button>
+                    <button class="gallery-btn" data-id="sport">Sport Tour</button>
+                </div>
+
+                <div class="gallery-section">
+                    <article class="gallery-imgs">
+                        <img src="./img/gallery-1.jpg" alt="" class="gallery-image">
+                        <div class="gallery-text">
+                            <i class="fa-solid fa-plus"></i>
+                            <h3 style="color: white; font-size: 20px; margin-bottom: 10px;">WORLD TOUR</h3>
+                            <a href="#" style="text-decoration: none; color: white;" class="f-link">View All Place <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </article>
+        </section>
+
+        <section class="online-booking">
+            <article class="galleria">
+                <div>
+                    <div class="booking">
+                        <span style="font-weight: 600; font-size: 18px; color: #13357B; color: white;">BOOKING</span> <div class="linee"></div>
+                    </div>
+                    <p style=" margin: 20px 0px; font-size: 26px; font-weight: 600; color: white;">Online Booking</p>
+                    <p style="color: white; line-height: 22px; word-spacing: 2px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus non illum possimus saepe excepturi deleniti laudantium sapiente voluptas natus. Nihil earum voluptate error quisquam pariatur atque repellendus animi illum dolor?</p><br>
+                    <p style="color: white; line-height: 22px; word-spacing: 2px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rerum iste labore perferendis dolorum sed repellat excepturi ipsa numquam autem quis nisi alias, ullam repudiandae asperiores unde nemo a ipsum.</p>
+                    <button class="booking-btn">Read More</button>
+                </div>
+                <div>
+                    <h2 style="margin: 20px 0px; font-size: 32px;">Book A Tour Deals</h2>
+                    <p style="margin: 20px 0px;">Get <span style="color: rgb(239, 194, 136);">50% Off</span>On Your First Sdventure Trip With Travela. Get more deals Offers Here.</p>
+                    <form action="/" class="booking-form">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <input type="datetime" placeholder="Date & Time">
+                        <select name="destinations" id="destinations">
+                            <option value="1st">Destination 1</option>
+                            <option value="2nd">Destination 2</option>
+                            <option value="3rd">Destination 3</option>
+                        </select>
+                        <select name="persons" id="persons">
+                            <option value="1t">Persons 1</option>
+                            <option value="2d">Persons 2</option>
+                            <option value="3d">Persons 3</option>
+                        </select>
+                        <select name="kids" id="kids">
+                            <option value="kid">Kids</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <textarea name="" id="" placeholder="Special Request"></textarea>
+                        <button class="book-now-btn">Book Now</button>
+                    </form>
+                </div>
+            </article> 
+        </section>
+
+        <section class="travel-guide">
+            <article class="galleria">
+                <div class="section">
+                    <div class="line"></div> <span style="font-weight: 600; font-size: 18px; color: #13357B;">TRAVEL GUIDE</span> <div class="line"></div>
+                </div>
+                <p style="text-align: center; margin: 20px 0px; font-size: 26px; font-weight: 600;">Meet Our Guide</p>
+            </article>
+            <div class="guiders">
+                <div class="guide">
+                    <div class="upper-lay"></div>
+                    <div class="img-container">
+                        <img src="./img/guide-1.jpg" alt="">
+                    </div>
+                    
+                    <div class="guide-socials">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="lower-lay"></div>
+                    <div class="guide-info">
+                        <h2 style="margin-top: 60px; margin-bottom: 10px;">Full Name</h2>
+                        <p style="color: gray; margin-bottom: 40px;">Designation</p>
+                    </div>
+                </div>
+                <div class="guide">
+                    <div class="upper-lay"></div>
+                    <div class="img-container">
+                        <img src="./img/guide-2.jpg" alt="">
+                    </div>
+                    
+                    <div class="guide-socials">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="lower-lay"></div>
+                    <div class="guide-info">
+                        <h2 style="margin-top: 60px; margin-bottom: 10px;">Full Name</h2>
+                        <p style="color: gray; margin-bottom: 40px;">Designation</p>
+                    </div>
+                </div>
+                <div class="guide">
+                    <div class="upper-lay"></div>
+                    <div class="img-container">
+                        <img src="./img/guide-3.jpg" alt="">
+                    </div>
+                    
+                    <div class="guide-socials">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="lower-lay"></div>
+                    <div class="guide-info">
+                        <h2 style="margin-top: 60px; margin-bottom: 10px;">Full Name</h2>
+                        <p style="color: gray; margin-bottom: 40px;">Designation</p>
+                    </div>
+                </div>
+                <div class="guide">
+                    <div class="upper-lay"></div>
+                    <div class="img-container">
+                        <img src="./img/guide-4.jpg" alt="">
+                    </div>
+                    
+                    <div class="guide-socials">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="lower-lay"></div>
+                    <div class="guide-info">
+                        <h2 style="margin-top: 60px; margin-bottom: 10px;">Full Name</h2>
+                        <p style="color: gray; margin-bottom: 40px;">Designation</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="our-blog">
+            <article class="galleria">
+                <div class="section">
+                    <div class="line"></div> <span style="font-weight: 600; font-size: 18px; color: #13357B;">OUR BLOG</span> <div class="line"></div>
+                </div>
+                <p style="text-align: center; margin: 20px 0px; font-size: 26px; font-weight: 600;">Popular Travel Blogs</p>
+                <p style="color: gray; text-align: center; line-height: 22px; word-spacing: 2px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque corrupti illum rem qui reprehenderit nemo magnam quasi explicabo eum animi similique iure, laboriosam fuga repellat voluptatum velit cumque quisquam.</p>
+            </article>
+
+            <div class="blog-flex">
+                <div class="blog">
+                    <div class="pack-img">
+                        <img src="./img/blog-1.jpg" alt="">
+                        <article class="small-writings" style="background-color: rgba(141, 141, 141, 0.3);">
+                            <p><i class="fas fa-calendar-days" style="color: #13357B;"></i>&nbsp;&nbsp;28 Jan 2050</p>
+                            <p><i class="fas fa-thumbs-up" style="color: #13357B;"></i>&nbsp;&nbsp;3 days</p>
+                            <p><i class="fas fa-comments" style="color: #13357B;"></i>&nbsp;&nbsp;2 Person</p>
+                        </article>
+                    </div>
+                    <div class="blog-content">
+                        <div class="p-info">
+                            <p>Posted By: Royal Hamblin</p>
+                            <h3 style="color: black;">Adventures Trip</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ex labore soluta incidunt autem praesentium?</p>
+                        </div>
+                        
+                        <button class="about-btn" style="margin: 10px 20px;">Read More</button>
+                        
+                    </div>
+                </div>
+
+                <div class="blog">
+                    <div class="pack-img">
+                        <img src="./img/blog-2.jpg" alt="">
+                        <article class="small-writings" style="background-color: rgba(141, 141, 141, 0.3);">
+                            <p><i class="fas fa-calendar-days" style="color: #13357B;"></i>&nbsp;&nbsp;28 Jan 2050</p>
+                            <p><i class="fas fa-thumbs-up" style="color: #13357B;"></i>&nbsp;&nbsp;3 days</p>
+                            <p><i class="fas fa-comments" style="color: #13357B;"></i>&nbsp;&nbsp;2 Person</p>
+                        </article>
+                    </div>
+                    <div class="blog-content">
+                        <div class="p-info">
+                            <p>Posted By: Royal Hamblin</p>
+                            <h3 style="color: black;">Adventures Trip</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ex labore soluta incidunt autem praesentium?</p>
+                        </div>
+                        
+                        <button class="about-btn" style="margin: 10px 20px;">Read More</button>
+                        
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="pack-img">
+                        <img src="./img/blog-3.jpg" alt="">
+                        <article class="small-writings" style="background-color: rgba(141, 141, 141, 0.3);">
+                            <p><i class="fas fa-calendar-days" style="color: #13357B;"></i>&nbsp;&nbsp;28 Jan 2050</p>
+                            <p><i class="fas fa-thumbs-up" style="color: #13357B;"></i>&nbsp;&nbsp;3 days</p>
+                            <p><i class="fas fa-comments" style="color: #13357B;"></i>&nbsp;&nbsp;2 Person</p>
+                        </article>
+                    </div>
+                    <div class="blog-content">
+                        <div class="p-info">
+                            <p>Posted By: Royal Hamblin</p>
+                            <h3 style="color: black;">Adventures Trip</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ex labore soluta incidunt autem praesentium?</p>
+                        </div>
+                        
+                        <button class="about-btn" style="margin: 10px 20px;">Read More</button>
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+
+        <section class="testimonial-section">
+            <article class="galleria">
+                <div class="section">
+                    <div class="line"></div> <span style="font-weight: 600; font-size: 18px; color: #13357B;">TESTIMONIAL</span> <div class="line"></div>
+                </div>
+                <p style="text-align: center; margin: 20px 0px; font-size: 26px; font-weight: 600;">Our Clients Say!!!</p>
+            </article>
+
+            <div class="main-onee">
+            <div class="b-buttons">
+                <button class="b-prevBtn"><i class="fas fa-arrow-left"></i></button>
+                <button class="b-nextBtn"><i class="fas fa-arrow-right"></i></button>
+            </div>
+            <article class="testimonials">
+                
+                <div class="testimonial">
+                    <div class="testimony">
+                        <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nulla autem eum fugiat! Voluptatibus repudiandae mollitia, officia in nihil odio.</p>
+                    </div>
+                    <div class="client-photo">
+                        <img src="./img/testimonial-1.jpg" alt="">
+                    </div>
+                    <div class="client-name">
+                        <h3 style="font-weight: 600;">John Abraham</h3>
+                        <p style="color: gray;">New York, USA</p>
+                        <article>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </article>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimony">
+                        <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aut quo hic minima animi? Assumenda accusamus blanditiis ullam reiciendis quasi eveniet quis quia facilis quas!</p>
+                    </div>
+                    <div class="client-photo">
+                        <img src="./img/testimonial-2.jpg" alt="">
+                    </div>
+                    <div class="client-name">
+                        <h3 style="font-weight: 600;">Celine Freda</h3>
+                        <p style="color: gray;">New York, USA</p>
+                        <article>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </article>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimony">
+                        <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aut quo hic minima animi? Assumenda accusamus blanditiis ullam reiciendis quasi eveniet quis quia facilis quas!</p>
+                    </div>
+                    <div class="client-photo">
+                        <img src="./img/testimonial-3.jpg" alt="">
+                    </div>
+                    <div class="client-name">
+                        <h3 style="font-weight: 600;">Abigail Sarah</h3>
+                        <p style="color: gray;">California, USA</p>
+                        <article>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </article>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimony">
+                        <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aut quo hic minima animi? Assumenda accusamus blanditiis ullam reiciendis quasi eveniet quis quia facilis quas!</p>
+                    </div>
+                    <div class="client-photo">
+                        <img src="./img/testimonial-4.jpg" alt="">
+                    </div>
+                    <div class="client-name">
+                        <h3 style="font-weight: 600;">Kristen Angel</h3>
+                        <p style="color: gray;">Los Angeles, USA</p>
+                        <article>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </article>
+                    </div>
+                </div>
+                
+            </article>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="newsletter">
+                <article class="galleria">
+                    <div class="section">
+                        <div class="line"xcz></div> <span style="font-weight: 700; font-size: 20px; color: #13357B;">SUSCRIBE</span> <div class="line"></div>
+                    </div>
+                    <p style="text-align: center; margin: 20px 0px; font-size: 26px; font-weight: 600;">Our Newsletter</p>
+                </article>
+                <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi.</p>
+    
+                <div class="newsletter-form">
+                    <form action="">
+                        <input type="text" placeholder="Your email" class="newsletter-input">
+                        <button class="about-btn" style="margin: 10px 20px;">Suscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="get-in-touch">
+                <h2 style="margin-bottom: 20px; color: white;">Get In Touch</h2>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-house"></i> &nbsp;&nbsp; 123 Street, New York, USA</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i> &nbsp;&nbsp; info@example.com</a></li>
+                    <li><a href="#"><i class="fas fa-phone"></i> &nbsp;&nbsp; +012 345 67890</a></li>
+                    <li><a href="#"><i class="fas fa-fax"></i> &nbsp;&nbsp; +012 345 67890</a></li>
+                </ul>
+                <div class="socials">
+                    <i class="fa-solid fa-share" style="font-size: 40px; margin-top: 5px;"></i>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="company">
+                <h2 style="margin-bottom: 20px; color: white;">Company</h2>
+                <ul class="footer-links">
+                    <li><a href="./about.html"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; About</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; Careers</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; Blog</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; Press</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; Gift Cards</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; magazine</a></li>
+                </ul>
+            </div>
+
+            <div class="company">
+                <h2 style="margin-bottom: 20px; color: white;">Support</h2>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; Contact</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; Legal Notice</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; Privacy Policy</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; Terms and Conditions</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; Sitemap</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> &nbsp;&nbsp; Cookie policy</a></li>
+                </ul>
+            </div>
+
+            <div class="payments">
+                <form action="" class="options-pay">
+                    <select name="" id="">
+                        <option value="English">English</option>
+                        <option value="Arabic">Arabic</option>
+                        <option value="German">German</option>
+                        <option value="French">French</option>
+                    </select>
+
+                    <select name="" id="">
+                        <option value="English">USD</option>
+                        <option value="Arabic">EUR</option>
+                        <option value="German">GBP</option>
+                        <option value="French">GHS</option>
+                    </select>
+                </form>
+
+                <div class="cards-pay">
+                    <h2 style="color: white;">Payments</h2>
+                    <div class="cards">
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-solid fa-money-check"></i>
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <!-- <div class="footer-line"></div> -->
+        <article class="company-info">
+            <p><span>&copy;</span>My Site Name. All right reserved.</p>
+            <p>Designed By Emmanuel Ziem Yaan-Tol. Distributed By ..............  <span class="mydate">2022</span></p>
+        </article>
+    </footer>
+    
+
+    <!-- link to the script file -->
+    <script src="./app.js"></script>
+    <script src="./galleryMenu.js"></script>
+</body>
+</html>

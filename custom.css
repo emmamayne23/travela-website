@@ -1,0 +1,247 @@
+
+.about-links {
+    color: white;
+}
+
+.about-links a {
+    color: blue;
+}
+
+.hero-banner {
+    background: url(./img/breadcrumb-bg.jpg) center center / cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.banner-overlay {
+    height: 100%;
+    background-color: rgba(0, 28, 97, 0.507);
+    display: grid;
+    place-items: center;
+}
+
+.banner-overlay h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.err-sect {
+    background-color: rgb(24, 129, 167);
+    padding: 50px 30px;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+}
+
+.err-sect .error > i {
+    font-size: 26px;
+}
+
+.err-sect h1 {
+    font-size: 40px;
+}
+
+.err-sect p {
+    text-align: center;
+}
+
+.err-btn {
+    padding: 15px 30px;
+    background-color: #13357B;
+    border: 1px solid #13357B;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.err-btn:hover {
+    background-color: white;
+    color: #13357B;
+}
+
+.err-btn:hover a {
+    /* background-color: white; */
+    color: #13357B;
+}
+
+.our-contact {
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 0px;
+    padding-top: 50px;
+    display: grid;
+    place-items: center;
+
+}
+
+.contact-details {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    padding: 30px 10px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.contact-details div {
+    line-height: 30px;
+}
+
+.contact-details div i {
+    font-size: 45px;
+    color: #13357B;
+}
+
+.contact-details div h2 {
+    color: #13357B;
+}
+
+.message {
+    margin-left: 23px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    width: 90%;
+    max-width: 500px;
+    display: grid;
+    place-items: center;
+}
+
+.message h2 {
+    margin-bottom: 10px;
+}
+
+.mess-form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+.mess-form input {
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: none;
+    outline-color: #13357B;
+    font-size: 16px;
+}
+
+.mess-form textarea {
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+    outline-color: gray;
+}
+
+.mess-form-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #13357B;
+    border: 1px solid #13357B;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 16px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.map-location {
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+
+.map-location iframe {
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px 25px 100px 25px;
+    max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+    .map-location iframe {
+        width: 90%;
+        border-radius: 10px;
+        margin: 10px 25px 100px 25px;
+        min-width: 90%;
+    }
+    .contact-details {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+        padding: 30px 10px;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        min-width: 700px;
+        max-width: 500px;
+    }
+    .message {
+        margin-left: 23px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        line-height: 25px;
+        width: 90%;
+        display: grid;
+        place-items: center;
+        min-width: 700px;
+    }
+    .mess-form {
+        margin: 20px auto;
+        width: 90%;
+        min-width: 700px;
+        display: grid !important;
+    }
+}
+
+@media screen and (min-width: 989px) {
+    .contact-flex {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        gap: 20px;
+    }
+    .contact-details {
+        min-width: 250px !important;
+        margin-left: 2rem;
+        height: 650px;
+    }
+    .mess-form {
+        min-width: 60%;
+        display: grid;
+        place-items: center;
+    }
+    .message {
+        min-width: 500px !important;
+    }
+    .message h2 {
+        text-align: left !important;
+        width: 100%;
+    }
+    .mess-form input {
+        width: 500px !important;
+    }
+    
+    .mess-form textarea {
+        width: 500px !important;
+    }
+    
+    .mess-form-btn {
+        width: 500px !important;
+    }
+}
